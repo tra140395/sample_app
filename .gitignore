@@ -15,6 +15,7 @@
 config/database.yml
 /public/packs
 /log/*
+/db/*.sqlite3
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -60,3 +61,7 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml

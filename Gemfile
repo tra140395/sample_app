@@ -7,6 +7,8 @@ gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 
 gem "rails-i18n"
 
+gem "bcrypt", "3.1.11"
+
 gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 4.1"

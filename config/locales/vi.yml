@@ -15,4 +15,6 @@ vi:
   link_path1: "http://www.railstutorial.org/help"
   link_path2: "http://www.railstutorial.org/book"
   base_title: "Ruby trên Rails ứng dụng hướng dẫn"
+  create_my_account: "Tạo tài khoản"
+  welcome_to_the_sample_app!: "Chào mừng đến với ứng dụng mẫu"
   

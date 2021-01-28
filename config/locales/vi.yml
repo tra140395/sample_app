@@ -1,7 +1,7 @@
 vi:
   welcome_to_the_sample_app: "Chào mừng đến với Sample app"
   help: "Trợ giúp"
-  sign_up: "Đăng nhập ngay!"
+  sign_up: "Đăng kí ngay!"
   home: "Trang chủ"
   help: "Giúp đỡ"
   login: "Đăng kí"
@@ -21,4 +21,8 @@ vi:
   vietnamese: "Tiếng Việt"
   the_form_contains: "Biểu mẫu chứa"
   error: "lỗi"
+  log_in: "Đăng nhập"
+  profile: "Thông tin cá nhân"
+  setting: "Cài đặt"
+  log_out: "Đăng xuất"
   

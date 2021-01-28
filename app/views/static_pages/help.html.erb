@@ -1,0 +1,10 @@
+<% provide :title, t("help") %>
+<div class="center jumbotron">
+	<h1 style="color: red">
+		<%= t "help" %>
+	</h1>
+	<h3>
+		<%= t("intro_of_help1", href: link_to(t("rails_tutorial_help_page"), t("link_path1"))).html_safe %>.
+		<%= t("intro_of_help2", href: link_to(t("ruby_on_rails_tutorial"), t("link_path2"))).html_safe %>
+	</h3>
+</div>

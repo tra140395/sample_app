@@ -17,3 +17,7 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   create_my_account: "Create my account"
   welcome_to_the_sample_app!: "Welcome to the Sample App"
+  log_in: "Login"
+  profile: "Profile"
+  setting: "Setting"
+  log_out: "Logout"

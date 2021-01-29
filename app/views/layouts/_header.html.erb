@@ -5,14 +5,15 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><%= link_to t("home"), root_path, class: "text-white" %> </li>
 				<li><%= link_to t("help"), static_pages_help_path, class: "text-white" %> </li>
-				 <% if logged_in? %>
-          <li><%= link_to t("profile"), current_user %></li>
-          <li><%= link_to t("setting"), edit_user_path(current_user) %></li>
-          <li class="divider"></li>
-          <li> <%= link_to t("log_out"), logout_path, method: :delete %></li>
-        <% else %>
-          <li><%= link_to t("log_in"), login_path %></li>
-        <% end %>
+				  <% if logged_in? %>
+				    <li><%= link_to t("users"), users_path %></li>
+		        <li><%= link_to t("profile"), current_user %></li>
+		        <li><%= link_to t("setting"), edit_user_path(current_user) %></li>
+		        <li class="divider"></li>
+		        <li> <%= link_to t("log_out"), logout_path, method: :delete %></li>
+		      <% else %>
+		        <li><%= link_to t("log_in"), login_path %></li>
+		      <% end %>
 			</ul>
 		</nav>
 	</div>

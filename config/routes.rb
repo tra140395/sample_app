@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: /en|vi/ do
     resources :microposts
     resources :users
+    resources :account_activations, only: :edit
   end
 end

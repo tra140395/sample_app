@@ -21,3 +21,7 @@ en:
   vietnamese: "Vietnamese"
   the_form_contains: "The form contains"
   error: "error"
+  log_in: "Login"
+  profile: "Profile"
+  setting: "Setting"
+  log_out: "Logout"
